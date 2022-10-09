@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section{
+    max-width: 75%;
+}
+.brand{
+    max-width: 75%;
+ 
+
+    
+   margin: auto;
+   margin-top: 20px;
+   display: flex;
+   
+   background-color: rgb(4, 38, 83);
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    display: inline;
+   
+   }
+   h1{
+       color: beige;
+       display: inline;
+   }
+   .message__area{
+       max-width: 75%;
+       height:80vh;
+       background-color: rgb(230, 238, 238);
+       margin: auto;
+       overflow-y: auto;
+       margin-bottom: 10px;
+   }
+  
+   .incomming{
+       width: 35%;
+       height: auto;
+       float: right;
+       clear: both;
+       background-color: rgb(230, 238, 238);
+       color:rgb(11, 45, 68);
+       border: 3px solid rgb(175, 232, 248);
+       border-radius: 8px;
+       margin: 20px 20px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: bold;
+       overflow-y: auto;
+       
+   }
+   
+   .outgoing{
+    width: 35%;
+    height: auto;
+    font-weight: bold;
+    float: left;
+    clear: both;
+    background-color: rgb(123, 218, 241);
+    color:rgb(8, 46, 71);
+    border: 3px solid rgb(123, 218, 241);
+    border-radius: 8px;
+    margin: 20px 20px;
+    overflow-x: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+   form{
+      text-align: center;
+       
+   }
+   body{
+       height: 100vh;
+       background-image: linear-gradient(rgb(209, 241, 241),rgb(0, 60, 255));
+   }
+   #MassageImp{
+       width: 70%;
+       height: 20px;
+   }
+   .btn{
+       height: 25px;
+       color: white;
+       background-color: turquoise;
+       border-radius: 5px;
+       padding: 5px 5px;
+   }
